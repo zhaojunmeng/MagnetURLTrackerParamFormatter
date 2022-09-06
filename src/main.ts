@@ -1,8 +1,6 @@
 import { writeFileSync } from 'fs';
 import lineByLine from 'n-readlines';
 
-console.log('abc')
-
 function main() {
     const liner = new lineByLine('./src/tracker.txt');
  
